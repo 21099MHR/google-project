@@ -26,6 +26,7 @@ button {
   margin-top: 10%;
   border: none;
   width: 120px;
+  height: 100px;
 }
 
 #buttons {
@@ -42,17 +43,17 @@ button {
   position: absolute;
   top: 0px;
   right: 0px;
-  bottom: -25px;
+  bottom: 0px;
   left: 0px;
 }
 
 #footer_container {
-  margin-top: 27.5%;
+  margin-top: 29.575%;
   font-family: sans-serif;
   display: flex;
   background-color: aqua;
   justify-content: space-between;
-  height: 75px;
+  height: 55px;
 }
 
 #top_left {
