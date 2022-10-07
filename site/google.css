@@ -25,13 +25,14 @@ button {
   margin-right: 5%;
   margin-top: 10%;
   border: none;
+  width: 120px;
 }
 
 #buttons {
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  width: 10%;
+  display: flexbox;
+  width: 15%;
   background-color: red;
   justify-content: space-between;
 }
@@ -39,26 +40,19 @@ button {
 #main_container {
   display: box;
   position: absolute;
-  background-color: black;
   top: 0px;
   right: 0px;
-  bottom: 0px;
+  bottom: -25px;
   left: 0px;
 }
 
-#top_container {
-  font-family: sans-serif;
-  background-color: yellow;
-  display: flex;
-  justify-content: space-between;
-}
-
 #footer_container {
-    margin-top: 30.27%;
+  margin-top: 27.5%;
   font-family: sans-serif;
   display: flex;
   background-color: aqua;
   justify-content: space-between;
+  height: 75px;
 }
 
 #top_left {
