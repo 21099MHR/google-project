@@ -60,7 +60,6 @@ button:hover{
 
 #main_container {
   display: box;
-  /* background-color: black; */
   position: absolute;
   min-height: 50%;
   top: 0px;
@@ -71,7 +70,10 @@ button:hover{
 
 #footer_container {
   margin-top: 28.85%;
-  position: relative;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
   font-family: sans-serif;
   display: flex;
   flex-direction: row;
