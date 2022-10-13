@@ -9,10 +9,20 @@ img {
   display: block;
 }
 
+a {
+  color: #222;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 input {
   display: block;
-  height: 25px;
-  width: 500px;
+  height: 34px;
+  width: 527px;
   border-radius: 24px;
   margin-top: 25px;
   margin-left: auto;
@@ -22,66 +32,103 @@ input {
 
 button {
   font-family: sans-serif;
-  margin-right: 5%;
   margin-top: 10%;
   border: none;
-  width: 120px;
-  height: 100px;
+  width: 129px;
+  height: 36px;
+  color: #5f6368;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+button:hover{
+  border-style: solid;
+  border-color: #222;
+  border-radius: 5px;
+  border-width: 1px;
 }
 
 #buttons {
   margin-left: auto;
   margin-right: auto;
-  display: flexbox;
+  margin-bottom: 26.95%;
+  display: flex;
   width: 15%;
-  background-color: red;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #main_container {
   display: box;
+  /* background-color: black; */
   position: absolute;
+  min-height: 50%;
   top: 0px;
-  right: 0px;
   bottom: 0px;
+  right: 0px;
   left: 0px;
 }
 
 #footer_container {
-  margin-top: 29.575%;
+  margin-top: 28.85%;
+  position: relative;
   font-family: sans-serif;
   display: flex;
-  background-color: aqua;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  height: 40px;
   justify-content: space-between;
-  height: 55px;
+  border-style: solid;
+  border-left-color: #f2f2f2;
+  border-right-color: #f2f2f2;
+  border-bottom-color: #f2f2f2;
+  border-width: 1px;
 }
 
-#top_left {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: red;
+#left {
+  display: flex;
 }
 
-#top_right {
-  background-color: blueviolet;
+#right {
+  display: flex;
 }
 
-#footer_left {
-    background-color: teal;
-    font-family: sans-serif;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  #footer_right {
-    background-color: brown;
-    font-family: sans-serif;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
+#ad{
+  width: 97px;
+  padding-left: 27px;
+}
+
+#bus{
+  width: 84px;
+}
+
+#how{
+  width: 142px;
+}
+
+#priv{
+  width: 73px;
+}
+
+#terms{
+  width: 65px;
+}
+
+#set{
+  width: 78px;
+  padding-right: 27px;
+}
+
+.footer_left {
+  font-family: sans-serif;
+  line-height: 40px;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.footer_right {
+  font-family: sans-serif;
+  line-height: 40px;
+  text-align: center;
+  justify-content: space-around;
+}
